@@ -1,0 +1,71 @@
+/* Color — base palette sampled from the reference, plus semantic aliases. */
+:root{
+/* Tomato: brand red (headline #C81736, CTA #CA0E2F, frame #C50B34 → unified) */
+--tomato-50:#FBEAEC; /* @kind color */
+--tomato-100:#F8C9CE; /* @kind color */
+--tomato-200:#EE97A1; /* @kind color */
+--tomato-300:#E05A6C; /* @kind color */
+--tomato-400:#D33049; /* @kind color */
+--tomato-500:#C9102F; /* @kind color */
+--tomato-600:#B00D29; /* @kind color */
+--tomato-700:#930B22; /* @kind color */
+--tomato-800:#6F0819; /* @kind color */
+--tomato-900:#4A0510; /* @kind color */
+/* Paper: cream stock (page #F5F1E8 sampled) */
+--paper-0:#FBF9F4; /* @kind color */
+--paper-50:#F8F5EE; /* @kind color */
+--paper-100:#F5F1E8; /* @kind color */
+--paper-200:#EDE7DA; /* @kind color */
+--paper-300:#DEDBD5; /* @kind color */
+--paper-400:#C9C3B6; /* @kind color */
+/* Ink: warm near-black + greys (sampled #0A0807, #1A1815, #2A2826, #6E6B61, #9B9791) */
+--ink-900:#0A0807; /* @kind color */
+--ink-800:#1A1815; /* @kind color */
+--ink-700:#2A2826; /* @kind color */
+--ink-600:#4A4740; /* @kind color */
+--ink-500:#6E6B61; /* @kind color */
+--ink-400:#9B9791; /* @kind color */
+/* Extrapolated status hues — NOT in the reference; harmonised to the palette */
+--basil-100:#E2EADB; /* @kind color */
+--basil-500:#3D6A3A; /* @kind color */
+--basil-700:#2A4B28; /* @kind color */
+--ochre-100:#F6E7C8; /* @kind color */
+--ochre-500:#C98A1E; /* @kind color */
+--ochre-700:#8A5C0E; /* @kind color */
+--white:#FFFFFF; /* @kind color */
+/* Semantic: surfaces */
+--surface-page:var(--paper-100); /* @kind color */
+--surface-raised:var(--paper-0); /* @kind color */
+--surface-sunken:var(--paper-200); /* @kind color */
+--surface-inverse:var(--ink-900); /* @kind color */
+--surface-brand:var(--tomato-500); /* @kind color */
+--surface-scrim:rgba(10,8,7,.62); /* @kind color */
+/* Semantic: text */
+--text-strong:var(--ink-900); /* @kind color */
+--text-body:var(--ink-800); /* @kind color */
+--text-muted:var(--ink-500); /* @kind color */
+--text-disabled:var(--ink-400); /* @kind color */
+--text-brand:var(--tomato-500); /* @kind color */
+--text-on-brand:var(--white); /* @kind color */
+--text-on-inverse:var(--paper-100); /* @kind color */
+/* Semantic: borders */
+--border-strong:var(--ink-900); /* @kind color */
+--border-default:var(--ink-700); /* @kind color */
+--border-rail:var(--ink-500); /* @kind color */
+--border-subtle:var(--paper-300); /* @kind color */
+/* Semantic: actions */
+--action-primary:var(--tomato-500); /* @kind color */
+--action-primary-hover:var(--tomato-600); /* @kind color */
+--action-primary-press:var(--tomato-700); /* @kind color */
+--action-ink:var(--ink-900); /* @kind color */
+--action-ink-hover:var(--ink-700); /* @kind color */
+--action-ink-press:var(--ink-800); /* @kind color */
+--focus-ring:var(--tomato-500); /* @kind color */
+/* Semantic: status */
+--status-success:var(--basil-500); /* @kind color */
+--status-success-bg:var(--basil-100); /* @kind color */
+--status-warning:var(--ochre-700); /* @kind color */
+--status-warning-bg:var(--ochre-100); /* @kind color */
+--status-error:var(--tomato-700); /* @kind color */
+--status-error-bg:var(--tomato-50); /* @kind color */
+}

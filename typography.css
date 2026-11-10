@@ -1,0 +1,53 @@
+/* Typography — families, scale, leading, tracking. Desktop baseline 1440px. */
+:root{
+--font-display:"Anton","Impact","Haettenschweiler","Arial Narrow Bold",sans-serif; /* @kind font */
+--font-body:"Archivo","Helvetica Neue",Arial,sans-serif; /* @kind font */
+--font-script:"Shadows Into Light","Bradley Hand","Segoe Print",cursive; /* @kind font */
+--stretch-condensed:75%; /* @kind font */
+--stretch-semicondensed:87.5%; /* @kind font */
+--stretch-normal:100%; /* @kind font */
+--stretch-expanded:118%; /* @kind font */
+--weight-regular:400; /* @kind font */
+--weight-medium:500; /* @kind font */
+--weight-semibold:600; /* @kind font */
+--weight-bold:700; /* @kind font */
+--weight-heavy:800; /* @kind font */
+--weight-black:900; /* @kind font */
+--size-mega:clamp(7.5rem,17vw,20rem); /* @kind font */
+--size-display:clamp(4rem,8.5vw,8.5rem); /* @kind font */
+--size-h1:clamp(3rem,5.5vw,5rem); /* @kind font */
+--size-h2:clamp(2.25rem,3.6vw,3.25rem); /* @kind font */
+--size-h3:2rem; /* @kind font */
+--size-h4:1.375rem; /* @kind font */
+--size-stat:4.25rem; /* @kind font */
+--size-lead:1.25rem; /* @kind font */
+--size-body:1rem; /* @kind font */
+--size-small:.875rem; /* @kind font */
+--size-caption:.75rem; /* @kind font */
+--size-label:.8125rem; /* @kind font */
+--size-micro:.6875rem; /* @kind font */
+--size-script-lg:2.5rem; /* @kind font */
+--size-script:1.75rem; /* @kind font */
+--size-script-sm:1.3125rem; /* @kind font */
+--leading-mega:.8; /* @kind font */
+--leading-display:.88; /* @kind font */
+--leading-heading:.95; /* @kind font */
+--leading-tight:1.15; /* @kind font */
+--leading-snug:1.35; /* @kind font */
+--leading-body:1.55; /* @kind font */
+--leading-script:1.05; /* @kind font */
+--tracking-mega:-.012em; /* @kind font */
+--tracking-display:-.005em; /* @kind font */
+--tracking-heading:0em; /* @kind font */
+--tracking-body:0em; /* @kind font */
+--tracking-caps:.04em; /* @kind font */
+--tracking-label:.09em; /* @kind font */
+/* Semantic role aliases */
+--heading-font:var(--font-display); /* @kind font */
+--body-font:var(--font-body); /* @kind font */
+--eyebrow-font:var(--font-script); /* @kind font */
+--label-font:var(--font-body); /* @kind font */
+--body-stretch:var(--stretch-semicondensed); /* @kind font */
+--label-stretch:var(--stretch-normal); /* @kind font */
+--stat-label-stretch:var(--stretch-expanded); /* @kind font */
+}

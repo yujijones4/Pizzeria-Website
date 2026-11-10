@@ -1,0 +1,21 @@
+/* Type roles + print effects as utility classes (prefix pz-). */
+.pz-mega{font-family:var(--font-display);font-weight:400;font-size:var(--size-mega);line-height:var(--leading-mega);letter-spacing:var(--tracking-mega);text-transform:uppercase;color:var(--text-brand)}
+.pz-display{font-family:var(--font-display);font-weight:400;font-size:var(--size-display);line-height:var(--leading-display);letter-spacing:var(--tracking-display);text-transform:uppercase;color:var(--text-strong)}
+.pz-h1{font-family:var(--font-display);font-weight:400;font-size:var(--size-h1);line-height:var(--leading-heading);text-transform:uppercase;color:var(--text-strong)}
+.pz-h2{font-family:var(--font-display);font-weight:400;font-size:var(--size-h2);line-height:var(--leading-heading);text-transform:uppercase;color:var(--text-strong)}
+.pz-h3{font-family:var(--font-display);font-weight:400;font-size:var(--size-h3);line-height:1;text-transform:uppercase;color:var(--text-strong)}
+.pz-h4{font-family:var(--font-display);font-weight:400;font-size:var(--size-h4);line-height:1.05;letter-spacing:var(--tracking-caps);text-transform:uppercase;color:var(--text-strong)}
+.pz-numeral{font-family:var(--font-display);font-weight:400;font-size:var(--size-stat);line-height:.9;color:var(--text-strong)}
+.pz-lead{font-family:var(--font-body);font-stretch:var(--body-stretch);font-size:var(--size-lead);line-height:var(--leading-snug);color:var(--text-body)}
+.pz-body{font-family:var(--font-body);font-stretch:var(--body-stretch);font-size:var(--size-body);line-height:var(--leading-body);color:var(--text-body)}
+.pz-small{font-family:var(--font-body);font-stretch:var(--body-stretch);font-size:var(--size-small);line-height:var(--leading-body);color:var(--text-body)}
+.pz-caption{font-family:var(--font-body);font-stretch:var(--body-stretch);font-size:var(--size-caption);line-height:1.4;color:var(--text-muted)}
+.pz-label{font-family:var(--font-body);font-weight:var(--weight-heavy);font-stretch:var(--label-stretch);font-size:var(--size-label);line-height:1;letter-spacing:var(--tracking-label);text-transform:uppercase}
+.pz-stat-label{font-family:var(--font-body);font-weight:var(--weight-heavy);font-stretch:var(--stat-label-stretch);font-size:var(--size-small);line-height:1;letter-spacing:var(--tracking-caps);text-transform:uppercase;color:var(--text-strong)}
+.pz-micro{font-family:var(--font-body);font-stretch:var(--body-stretch);font-size:var(--size-micro);line-height:1.3;color:var(--text-muted)}
+.pz-script{font-family:var(--font-script);font-weight:400;font-size:var(--size-script);line-height:var(--leading-script);color:var(--text-strong)}
+.pz-distress{-webkit-mask-image:var(--texture-distress);mask-image:var(--texture-distress);-webkit-mask-size:var(--texture-distress-size);mask-size:var(--texture-distress-size)}
+.pz-distress-heavy{-webkit-mask-image:var(--texture-distress-heavy);mask-image:var(--texture-distress-heavy);-webkit-mask-size:420px;mask-size:420px}
+.pz-cutout{filter:var(--shadow-cutout)}
+.pz-rule{border:0;border-top:var(--border-rule) solid var(--border-strong);margin:0}
+.pz-rule-heavy{border:0;border-top:var(--border-heavy) solid var(--border-strong);margin:0}

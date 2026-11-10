@@ -1,0 +1,31 @@
+/* Spacing + layout. 4px base; editorial, generous. */
+:root{
+--space-0:0;
+--space-px:1px;
+--space-1:4px;
+--space-2:8px;
+--space-3:12px;
+--space-4:16px;
+--space-5:20px;
+--space-6:24px;
+--space-7:28px;
+--space-8:32px;
+--space-10:40px;
+--space-12:48px;
+--space-14:56px;
+--space-16:64px;
+--space-20:80px;
+--space-24:96px;
+--space-32:128px;
+--space-40:160px;
+--rail-width:72px; /* @kind spacing */
+--header-height:88px; /* @kind spacing */
+--content-max:1320px; /* @kind spacing */
+--gutter:clamp(20px,3vw,40px); /* @kind spacing */
+--section-y:clamp(80px,10vw,144px); /* @kind spacing */
+--control-sm:32px; /* @kind spacing */
+--control-md:44px; /* @kind spacing */
+--control-lg:56px; /* @kind spacing */
+--measure-body:38ch; /* @kind spacing */
+--measure-wide:60ch; /* @kind spacing */
+}

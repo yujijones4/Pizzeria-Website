@@ -1,0 +1,12 @@
+/* Element defaults. */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--surface-page);color:var(--text-body);font-family:var(--font-body);font-stretch:var(--body-stretch);font-size:var(--size-body);line-height:var(--leading-body);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5,h6{margin:0;font-family:var(--font-display);font-weight:400;text-transform:uppercase;line-height:var(--leading-heading);color:var(--text-strong)}
+p{margin:0;text-wrap:pretty}
+a{color:var(--text-strong);text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:.2em;transition:color var(--dur-fast) var(--ease-out)}
+a:not([class]):hover{color:var(--text-brand)}
+::selection{background:var(--tomato-500);color:var(--white)}
+:focus-visible{outline:2px solid var(--focus-ring);outline-offset:3px}
+img{max-width:100%;display:block}
+button,input,select,textarea{font:inherit;color:inherit}
