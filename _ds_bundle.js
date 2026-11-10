@@ -2019,7 +2019,7 @@ try { (() => {
     }, /*#__PURE__*/React.createElement("div", {
       className: "pairings__photo pairings__duo"
     }, /*#__PURE__*/React.createElement("img", {
-      src: "../../assets/photos/pairing-loaded-fries.png",
+      src: "pairing-loaded-fries.png",
       alt: "Loaded fries with cheese sauce and bacon"
     })), /*#__PURE__*/React.createElement("div", {
       className: "pairings__copy"
@@ -2107,7 +2107,7 @@ window.PZ_DATA = {
     price: 18,
     desc: "San Marzano tomato, fior di latte, basil, good olive oil.",
     tags: ["veg"],
-    img: "../../assets/photos/pizza-margherita.png"
+    img: "pizza-margherita.png"
   }, {
     id: "pepperoni",
     cat: "pizza",
@@ -2116,7 +2116,7 @@ window.PZ_DATA = {
     desc: "Cup-and-char pepperoni, mozzarella, rosemary.",
     tags: [],
     badge: "Bestseller",
-    img: "../../assets/photos/pizza-pepperoni.png"
+    img: "pizza-pepperoni.png"
   }, {
     id: "supreme",
     cat: "pizza",
@@ -2124,7 +2124,7 @@ window.PZ_DATA = {
     price: 23,
     desc: "Pepperoni, sausage, mushrooms, peppers, red onion, black olives. Everything, on purpose.",
     tags: [],
-    img: "../../assets/photos/pizza-supreme.png"
+    img: "pizza-supreme.png"
   }, {
     id: "hot-honey",
     cat: "pizza",
@@ -2133,7 +2133,7 @@ window.PZ_DATA = {
     desc: "Sausage, roasted peppers, mozzarella, parsley and a hot-honey drizzle. Sweet, then trouble.",
     tags: ["spicy"],
     badge: "New",
-    img: "../../assets/photos/pizza-hot-honey.png"
+    img: "pizza-hot-honey.png"
   }, {
     id: "funghi",
     cat: "pizza",
@@ -2141,7 +2141,7 @@ window.PZ_DATA = {
     price: 18,
     desc: "Roasted mushrooms, wilted spinach, garlic cream, mozzarella.",
     tags: ["veg"],
-    img: "../../assets/photos/pizza-funghi.png"
+    img: "pizza-funghi.png"
   }, {
     id: "quattro",
     cat: "pizza",
@@ -2149,7 +2149,7 @@ window.PZ_DATA = {
     price: 20,
     desc: "Mozzarella, fontina, gorgonzola, parm, a sprig of basil. No tomato, no regrets.",
     tags: ["veg"],
-    img: "../../assets/photos/pizza-quattro.png"
+    img: "pizza-quattro.png"
   }, {
     id: "verde",
     cat: "pizza",
@@ -2157,7 +2157,7 @@ window.PZ_DATA = {
     price: 20,
     desc: "Half basil pesto with salami, half San Marzano tomato — fior di latte and basil across both.",
     tags: [],
-    img: "../../assets/photos/pizza-verde.png"
+    img: "pizza-verde.png"
   }, {
     id: "diavola",
     cat: "pizza",
@@ -2165,7 +2165,7 @@ window.PZ_DATA = {
     price: 18,
     desc: "Spicy salami, cherry tomatoes, fior di latte, basil.",
     tags: ["spicy"],
-    img: "../../assets/photos/pizza-diavola.png"
+    img: "pizza-diavola.png"
   }, {
     id: "marinara",
     cat: "pizza",
@@ -2173,7 +2173,7 @@ window.PZ_DATA = {
     price: 18,
     desc: "Tomato, garlic, oregano, basil, olive oil. The original — no cheese.",
     tags: ["vegan"],
-    img: "../../assets/photos/pizza-marinara.png"
+    img: "pizza-marinara.png"
   }, {
     id: "garlic-bread",
     cat: "sides",
@@ -2181,7 +2181,7 @@ window.PZ_DATA = {
     price: 6,
     desc: "Garlic-butter bread under a blanket of melted mozzarella and parsley.",
     tags: [],
-    img: "../../assets/photos/side-garlic-bread.png",
+    img: "side-garlic-bread.png",
     cut: true
   }, {
     id: "meatballs",
@@ -2190,7 +2190,7 @@ window.PZ_DATA = {
     price: 8,
     desc: "Sticky-glazed meatballs on a stick, scallions and sesame on top.",
     tags: [],
-    img: "../../assets/photos/side-meatballs-v2.png",
+    img: "side-meatballs-v2.png",
     cut: true
   }, {
     id: "fries",
@@ -2199,7 +2199,7 @@ window.PZ_DATA = {
     price: 3,
     desc: "Skin-off, double-fried, salted the second they land.",
     tags: [],
-    img: "../../assets/photos/side-fries.png",
+    img: "side-fries.png",
     cut: true
   }, {
     id: "loaded-fries",
@@ -2208,7 +2208,7 @@ window.PZ_DATA = {
     price: 7,
     desc: "Fries buried in seasoned beef, cheddar sauce, crema, tomato, onion and cilantro.",
     tags: [],
-    img: "../../assets/photos/side-loaded-fries.png",
+    img: "side-loaded-fries.png",
     cut: true
   }, {
     id: "sweet-tea",
@@ -2217,7 +2217,7 @@ window.PZ_DATA = {
     price: 3,
     desc: "Brewed strong, sugared while it’s hot. Southern-sweet.",
     tags: ["vegan"],
-    img: "../../assets/photos/drink-sweet-tea-v2.png",
+    img: "drink-sweet-tea-v2.png",
     cut: true
   }, {
     id: "unsweet-tea",
@@ -2226,7 +2226,7 @@ window.PZ_DATA = {
     price: 2,
     desc: "Same black tea, nothing added. Lemon on request.",
     tags: ["vegan"],
-    img: "../../assets/photos/drink-unsweet-tea-v2.png",
+    img: "drink-unsweet-tea-v2.png",
     cut: true
   }, {
     id: "olipop-ginger-ale",
@@ -2235,7 +2235,7 @@ window.PZ_DATA = {
     price: 3,
     desc: "Crisp, gingery, 5g of sugar. Served cold in the can.",
     tags: ["vegan"],
-    img: "../../assets/photos/drink-olipop-ginger-ale.png",
+    img: "drink-olipop-ginger-ale.png",
     cut: true
   }, {
     id: "lemonade",
@@ -2244,7 +2244,7 @@ window.PZ_DATA = {
     price: 3,
     desc: "Squeezed every morning.",
     tags: ["vegan"],
-    img: "../../assets/photos/drink-lemonade-v3.png",
+    img: "drink-lemonade-v3.png",
     cut: true
   }],
   sizes: [{

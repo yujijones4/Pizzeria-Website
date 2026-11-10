@@ -71,7 +71,7 @@
           <div className="sizes__cta"><TextLink size="md" arrow onClick={() => onOrder(size)}>{"Order " + sel.cta + " — " + fmt(selPrice)}</TextLink></div>
         </section>
         <section className="pairings">
-          <div className="pairings__photo pairings__duo"><img src="../../assets/photos/pairing-loaded-fries.png" alt="Loaded fries with cheese sauce and bacon" /></div>
+          <div className="pairings__photo pairings__duo"><img src="pairing-loaded-fries.png" alt="Loaded fries with cheese sauce and bacon" /></div>
           <div className="pairings__copy">
             <ScriptLabel>Pairings</ScriptLabel>
             <Headline level="display" className="kit-display-sm">Don’t forget<br />the fries</Headline>

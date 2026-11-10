@@ -1,4 +1,4 @@
-/* Website UI kit layout only — all component styling comes from ../../styles.css */
+/* Website UI kit layout only — all component styling comes from styles.css */
 body{background:linear-gradient(180deg,var(--surface-page) 0%,oklch(0.9 0.035 70) 45%,oklch(0.86 0.045 65) 100%) fixed}
 .kit-rail{position:fixed;top:0;bottom:0;left:0;z-index:var(--z-rail)}
 .kit-header{position:absolute;top:0;left:var(--rail-width);right:0;z-index:var(--z-header);pointer-events:none}
@@ -38,7 +38,7 @@ image-slot[shape="circle"]:not([data-filled]){border-radius:50%}
 @keyframes kit-roll{to{transform:rotate(-360deg)}}
 @media (prefers-reduced-motion:reduce){.hero__track,.hero__img{animation:none}.hero__marquee{overflow-x:auto}}
 .story__cutout img,.cz__cut img{display:block;width:100%;height:100%;object-fit:contain}
-.about{position:relative;display:flex;align-items:center;justify-content:flex-end;min-height:min(100vh,880px);padding:var(--section-y) var(--gutter);background:var(--ink-800) url("../../assets/photos/about-wall.png") center 45% / cover no-repeat}
+.about{position:relative;display:flex;align-items:center;justify-content:flex-end;min-height:min(100vh,880px);padding:var(--section-y) var(--gutter);background:var(--ink-800) url("about-wall.png") center 45% / cover no-repeat}
 .about__panel{display:flex;flex-direction:column;align-items:flex-start;gap:18px;width:100%;max-width:520px;padding:40px 40px 36px;background:var(--surface-page);border:var(--border-heavy) solid var(--border-strong);box-shadow:var(--shadow-overlay)}
 .about__panel p{max-width:44ch}
 .intro{position:relative;z-index:3;display:grid;grid-template-columns:minmax(0,1fr) min(440px,30vw) minmax(0,1fr);gap:48px;align-items:start;padding:var(--space-16) var(--gutter) var(--section-y)}

@@ -1,8 +1,8 @@
-@import "./tokens/fonts.css";
-@import "./tokens/colors.css";
-@import "./tokens/typography.css";
-@import "./tokens/spacing.css";
-@import "./tokens/effects.css";
-@import "./css/base.css";
-@import "./css/utilities.css";
-@import "./css/components.css";
+@import "./fonts.css";
+@import "./colors.css";
+@import "./typography.css";
+@import "./spacing.css";
+@import "./effects.css";
+@import "./base.css";
+@import "./utilities.css";
+@import "./components.css";

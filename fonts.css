@@ -1,5 +1,5 @@
 /* Webfonts — Google Fonts substitutes (latin subset). See readme.md › Typography for the substitution note. */
-@font-face{font-family:"Anton";font-style:normal;font-weight:400;font-display:swap;src:url("../fonts/Anton-Regular.woff2") format("woff2")}
-@font-face{font-family:"Archivo";font-style:normal;font-weight:100 900;font-stretch:62% 125%;font-display:swap;src:url("../fonts/Archivo-Variable.woff2") format("woff2")}
-@font-face{font-family:"Archivo";font-style:italic;font-weight:100 900;font-stretch:62% 125%;font-display:swap;src:url("../fonts/Archivo-Italic-Variable.woff2") format("woff2")}
-@font-face{font-family:"Shadows Into Light";font-style:normal;font-weight:400;font-display:swap;src:url("../fonts/ShadowsIntoLight-Regular.woff2") format("woff2")}
+@font-face{font-family:"Anton";font-style:normal;font-weight:400;font-display:swap;src:url("Anton-Regular.woff2") format("woff2")}
+@font-face{font-family:"Archivo";font-style:normal;font-weight:100 900;font-stretch:62% 125%;font-display:swap;src:url("Archivo-Variable.woff2") format("woff2")}
+@font-face{font-family:"Archivo";font-style:italic;font-weight:100 900;font-stretch:62% 125%;font-display:swap;src:url("Archivo-Italic-Variable.woff2") format("woff2")}
+@font-face{font-family:"Shadows Into Light";font-style:normal;font-weight:400;font-display:swap;src:url("ShadowsIntoLight-Regular.woff2") format("woff2")}
